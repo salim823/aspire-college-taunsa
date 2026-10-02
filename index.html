@@ -15,7 +15,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Aspire College Taunsa Sharif – Admissions & Programs" />
   <meta name="twitter:description" content="Aspire College Taunsa Sharif admissions: 9th, 10th, FSc, ICS, FA, ICom & MDCAT. Fee concession for deserving students. Call/WhatsApp +92 311 0600349." />
-  <link rel="icon" href="data:," />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -119,10 +119,11 @@
       min-width: 0;
       text-decoration: none;
       display: flex;
-      align-items: baseline;
+      align-items: center;
       gap: 9px;
       line-height: 1.1;
     }
+    .brand-logo { width: 42px; height: auto; flex: none; }
     .brand strong {
       font-family: "Libre Baskerville", serif;
       color: var(--red);
@@ -686,6 +687,7 @@
       .nav-shell { min-height: 64px; padding-block: 10px; }
       .brand { display: block; width: 100%; padding-right: 100px; }
       .brand strong { display: block; font-size: .96rem; }
+      .brand-logo { width: 34px; }
       .brand span { display: block; margin-top: 4px; padding-left: 0; border: 0; font-size: .61rem; }
       .nav-links { grid-template-columns: repeat(3, minmax(0, 1fr)); }
       .nav-links a { font-size: .72rem; padding: 7px 4px; }
@@ -724,6 +726,11 @@
   <header class="site-header">
     <div class="nav-shell">
       <a class="brand" href="#home" aria-label="Aspire Taunsa Campus home">
+        <svg class="brand-logo" viewBox="0 0 120 130" aria-hidden="true" focusable="false">
+          <path d="M60 8 L104 26 V66 C104 94 82 110 60 118 C38 110 16 94 16 66 V26 Z" fill="#8f1626" stroke="#c69a2b" stroke-width="5"/>
+          <text x="60" y="88" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="56" font-weight="bold" fill="#f6e7b8">A</text>
+          <circle cx="60" cy="104" r="2.6" fill="#c69a2b"/>
+        </svg>
         <strong>Aspire Group of Colleges</strong>
         <span>Taunsa Campus</span>
       </a>
